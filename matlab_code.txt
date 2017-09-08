@@ -1,9 +1,10 @@
 function canuckstracker
 %display location of puck and mark turnover locations leading to clearances 
-    filename = 'smalldata.xlsx';    %import relevant data and organize to vectors
-    X =                 xlsread(filename,'Sheet1','H95:H311');
+%import relevant data and organize to vectors, X and Y represent the X and Y position of puck, T is time
+ filename = 'smalldata.xlsx';    
+    X =                 xlsread(filename,'Sheet1','H95:H311'); 
     Y =                 xlsread(filename,'Sheet1','I95:I311');
-        T =             xlsread(filename,'Sheet1','F95:F311');
+    T =             xlsread(filename,'Sheet1','F95:F311');
     [num,txt,raw] =     xlsread(filename,'Sheet1','A95:A311');
     GAME = txt;
     [num,txt,raw] =     xlsread(filename,'Sheet1','B95:B311');
@@ -36,7 +37,7 @@ function canuckstracker
             end
         end
     end
-    tx=linspace(1, 800, length(X));        %smooth data for video
+    tx=linspace(1, 800, length(X));        %smooth data for video using interpolation
     tix =linspace(1, 800, 4*length(X));
     xx=interp1(tx,X,tix,'pchip');
     
