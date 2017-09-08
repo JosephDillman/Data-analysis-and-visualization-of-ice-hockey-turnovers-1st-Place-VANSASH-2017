@@ -1,7 +1,7 @@
 # Vancouver Sports Analytics Symposium and Hackathon First Place Winner for the Canucks Category
 
    Hackathon date: July 8-9 2017 
-
+   hackathon website: https://www.vansash.com/
 
 For this hackathon my group and I had 24 hours to analyze Canucks powerplay data, 
 a massive spreadsheet with player location, player name and an ambiguous time-stamp 
