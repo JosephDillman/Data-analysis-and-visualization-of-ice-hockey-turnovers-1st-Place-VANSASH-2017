@@ -15,7 +15,7 @@ occur by which players and where on the ice compared to league averages while al
 conducting statistical analysis. 
 
 The judges liked our graphics, originality and applicability to coaching/management 
-and as a result our group of mostly first years with no hackathon experience won!
+and as a result our group of mostly first years with no hackathon experience won first among 100 others!
 
 Although my matlab code requires the canucks spreadsheet data to be imported, I signed
 a non disclosure agreement form that does not allow me to publicly post the canucks 
